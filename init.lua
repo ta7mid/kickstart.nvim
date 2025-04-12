@@ -199,11 +199,11 @@ vim.keymap.set('i', 'jj', '<Esc>')
 vim.keymap.set('c', 'jj', '<Esc>')
 
 -- getting into command mode
-vim.keymap.set('n', 'k;', ':')
+vim.keymap.set('n', ';', ':')
 vim.keymap.set('n', '<D-;>', ':')
-vim.keymap.set('n', '<D-k>', ':')
 vim.keymap.set('n', '<C-;>', ':')
-vim.keymap.set('n', '<C-k>', ':')
+vim.keymap.set('i', '<D-;>', ':')
+vim.keymap.set('i', '<C-;>', ':')
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
